@@ -1,0 +1,82 @@
+    1  mkdir practica_terminal
+    2  cd practica_terminal
+    3  touch hello_world.py
+    4  nano hello_world.py
+    5  python3 hello_world.py
+    6  mkdir script_batch
+    7  cd script_batch
+    8  touch ejecuta_python.sh
+    9  nano ejecuta_python.sh
+   10  rm ejecuta_python.sh
+   11  cd ..
+   12  ls
+   13  rm script_batch
+   14  rm -r script_batch
+   15  cd..
+   16  cd ..
+   17  mkdir script_batch
+   18  cd  script_batch
+   19  touch ejecuta_python.sh
+   20  nano ejecuta_python.sh
+   21  chmod +x ejecuta_python.sh
+   22  ./ejecuta_python.sh
+   23  cd ..
+   24  mkdir script_python
+   25  cd script_python
+   26  mv hello_world.py script_python
+   27  cd ..
+   28  cd script_python
+   29  cd ..
+   30  mv hello_world.py script_python
+   31  cd practica_terminal
+   32  mv hello_world.py script_python
+   33  dc ..
+   34  cd script_python
+   35  cd ..
+   36  cd script_python
+   37  mv hello_world.py practica_terminal
+   38  cd ..
+   39  dc script_python
+   40  cd script_python
+   41  mv hello_world.py /workspaces/exercise-terminal-challenge/practica_terminal/script_python
+   42  mv /workspaces/exercise-terminal-challenge/practica_terminal/script_python /workspaces/exercise-terminal-challenge/script_python
+   43  cp hello_world.py copia_archivo.py
+   44  cp hello.world.py copia_archivo.py
+   45  cp [200~/workspaces/exercise-terminal-challenge/script_python/hello_world.py~ copia_archivo.py
+   46  cp /workspaces/exercise-terminal-challenge/script_python/hello_world.py copia.archivo.py
+   47  python3 copia_archivo.py
+   48  python3 copia.archivo.py
+   49  rm hello_world.py
+   50  ls
+   51  nano copia.archivo.py
+   52  python3 copia.archivo.py
+   53  nano copia.archivo.py
+   54  python3 copia.archivo.py
+   55  cd ..
+   56  cat res/test.txt
+   57  cat /workspaces/exercise-terminal-challenge/practica_terminal/test.txt~
+   58  cat /workspaces/exercise-terminal-challenge/practica_terminal/test.txt
+   59  mkdir data
+   60  cd data
+   61  wget https://getsamplefiles.com/download/tar/sample
+   62  tar -xvf smaple-1.tar
+   63  tar -xvf sample-1.tar
+   64  tar https://getsamplefiles.com/download/tar/sample.tar
+   65  wget https://getsamplefiles.com/download/tar/sample.tar
+   66  tar -xvf sample.tar
+   67  find -name "*.jpg
+
+   68  find -name "*.jpg"
+   69  find -name "*.doc"
+   70  pwd
+   71  history
+   72  mkdir Revisalo_Felix
+   73  rm -r Revisalo_Felix
+   74  cd ..
+   75  mkdir Revisalo_Felix
+   76  touch final.txt
+   77  rm -r final.txt
+   78  cd Revisalo_Felix
+   79  touch final.txt
+   80  history
+   81  history > Revisalo_Felix.txt
